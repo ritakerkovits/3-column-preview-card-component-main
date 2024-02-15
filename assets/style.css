@@ -9,7 +9,28 @@
     src: url("../assets/fonts/Big_Shoulders_Display/static/BigShouldersDisplay-Bold.ttf");
 }
 
+body{
+    background-color: hsl(0, 0%, 95%);
+}
 
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;  
+      
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
 
 
 .container{
@@ -22,8 +43,8 @@
 
 }
 
-.sedan, .suv, .luxury{
-    height: 33.33%;
+.sedan .suv .luxury{
+    flex: 1 1 500px;
 }
 
 .sedan{
@@ -58,12 +79,30 @@ button{
     color: hsl(31, 77%, 52%);
 }
 
+.orange-btn:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
 .light-cyan-btn{
     color: hsl(184, 100%, 22%);
 }
 
+.light-cyan-btn:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
 .dark-cyan-btn{
     color: hsl(179, 100%, 13%);
+}
+
+.dark-cyan-btn:hover{
+    border: 1px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
 }
 
 h1{
@@ -86,8 +125,7 @@ h1{
 @media (min-width: 1440px) {
     .container{
         flex-direction: row;
-        width: 50%;
-        
+        width: 40%;
     }
 
     .sedan{
@@ -101,21 +139,26 @@ h1{
         border-bottom-left-radius: 0px;
     }
 
-    .sedan, .suv, .luxury{
-        
-        flex: 1 1 300px;
+    .sedan .suv .luxury{
+        flex: 1 1 50%;
+        /*margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);*/
+        align-items: center;
     }
  
 }
 
 @media (min-width: 925px) {
+    
     .container{
         flex-direction: row;
-        flex-basis: 60%;
+        flex-basis: 40%;
         margin: auto;
-        /*position: relative;*/
         align-items: stretch;
-        flex-basis: auto;
+       
     }
 
     
@@ -130,9 +173,9 @@ h1{
         border-bottom-left-radius: 0px;
     }
 
-    .sedan, .suv, .luxury{
-        
-        flex: 1 1 500px;
+    .sedan .suv .luxury{
+        flex: 1 1 50%;
+        align-items: center;
     }
 
     
@@ -142,6 +185,6 @@ h1{
     }
     
     p{
-        
+        padding-bottom: 50px;
     }
 }
