@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](.solution/screenshot.jpg)
+![](.solution/screenshot.png)
 
 
 
