@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: _https://ritakerkovits.github.io/3-column-preview-card-component-main/_
+- Solution URL: https://ritakerkovits.github.io/3-column-preview-card-component-main/
 
 ## My process
 
