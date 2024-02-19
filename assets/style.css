@@ -40,7 +40,7 @@ footer{
     margin-bottom: 50px;
     margin-top: 50px ;
     justify-content: center;
-
+    margin: 50px auto;
 }
 
 .sedan .suv .luxury{
@@ -60,11 +60,11 @@ footer{
     padding: 50px;
 }
 
-p{
+div > p{
     font-family: lexendDeca;
     color: hsla(0, 0%, 100%, 0.75);
     font-size: 15px;
-    
+    margin-bottom: 20px;
 }
 
 button{
@@ -126,6 +126,8 @@ h1{
     .container{
         flex-direction: row;
         width: 40%;
+        align-items: center;
+        margin: 200px auto;
     }
 
     .sedan{
@@ -141,11 +143,6 @@ h1{
 
     .sedan .suv .luxury{
         flex: 1 1 50%;
-        /*margin: 0;
-        position: absolute;
-        top: 50%;
-        -ms-transform: translateY(-50%);
-        transform: translateY(-50%);*/
         align-items: center;
     }
  
@@ -155,9 +152,10 @@ h1{
     
     .container{
         flex-direction: row;
-        flex-basis: 40%;
+        /*flex-basis: 40%;*/
         margin: auto;
         align-items: stretch;
+        margin: 200px auto;
        
     }
 
@@ -174,7 +172,7 @@ h1{
     }
 
     .sedan .suv .luxury{
-        flex: 1 1 50%;
+        flex: 1 1 40%;
         align-items: center;
     }
 
