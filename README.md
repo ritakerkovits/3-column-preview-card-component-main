@@ -28,15 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](.solution/screenshot.jpg)
 
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://ritakerkovits.github.io/3-column-preview-card-component-main/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: _https://ritakerkovits.github.io/3-column-preview-card-component-main/_
 
 ## My process
 
@@ -82,12 +81,12 @@ Example of the code:
 
 ### Useful resources
 
-- [Example resource 1]((https://www.youtube.com/watch?v=sanswTlz4ZY&list=PL-oX2VRTbbqiEji3edl_T1gF4pPATVAsm&index=7)) - This video helped me to gain a profound understanding of flex-basis, flex-grow and flex-shrink.
+- **Understanding Flex property** - _https://www.youtube.com/watch?v=sanswTlz4ZY&list=PL-oX2VRTbbqiEji3edl_T1gF4pPATVAsm&index=7_ - This video helped me to gain a profound understanding of flex-basis, flex-grow and flex-shrink.
 
 
 
 ## Author
 
-- Frontend Mentor - [@ritakerkovits]([https://www.frontendmentor.io/profile/ritakerkovits])
+- Frontend Mentor - _[@ritakerkovits][https://www.frontendmentor.io/profile/ritakerkovits]_
 
 
