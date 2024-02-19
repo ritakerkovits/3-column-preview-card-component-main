@@ -87,6 +87,6 @@ Example of the code:
 
 ## Author
 
-- Frontend Mentor - _[@ritakerkovits][https://www.frontendmentor.io/profile/ritakerkovits]_
+- Frontend Mentor - _[https://www.frontendmentor.io/profile/ritakerkovits]_
 
 
