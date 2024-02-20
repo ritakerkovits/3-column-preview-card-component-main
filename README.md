@@ -26,7 +26,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshot of the solution
 
 ![](./solution/screenshot.png)
 
@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: _https://ritakerkovits.github.io/3-column-preview-card-component-main/_
+- Solution URL: https://ritakerkovits.github.io/3-column-preview-card-component-main/
 
 ## My process
 
@@ -87,6 +87,6 @@ Example of the code:
 
 ## Author
 
-- Frontend Mentor - _[@ritakerkovits][https://www.frontendmentor.io/profile/ritakerkovits]_
+- Frontend Mentor - _https://www.frontendmentor.io/profile/ritakerkovits_
 
 
