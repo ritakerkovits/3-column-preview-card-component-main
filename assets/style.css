@@ -115,10 +115,10 @@ h1{
     background-color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 1440px) {
+/*@media (min-width: 1440px) {
     .container{
         flex-direction: row;
-        width: 40%;
+        width: 70%;
         align-items: center;
         margin: 200px auto;
     }
@@ -139,13 +139,14 @@ h1{
         align-items: center;
     }
  
-}
+}*/
 
-@media (min-width: 925px) {
+@media (min-width: 600px) {
     
     .container{
         flex-direction: row;
         /*flex-basis: 40%;*/
+        max-width: 75%;
         margin: auto;
         align-items: stretch;
         margin: 200px auto;
